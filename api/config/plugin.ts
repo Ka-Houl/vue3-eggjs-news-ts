@@ -1,5 +1,5 @@
 import { EggPlugin } from 'egg';
-
+//跨域配置
 const plugin: EggPlugin = {
   cors: {
     enable: true,

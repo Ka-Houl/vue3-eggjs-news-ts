@@ -16,6 +16,13 @@ export default class ApiController extends Controller {
     // 执行service内的getNewsList方法，请求数据
     ctx.body = await ctx.service.api.getNewsList({ type, pageNum, count });
   }
+  public async test (): Promise<void> {
+    const { ctx } = this;
+    // 请求体内拿到请求参数
+    
+    // 执行service内的getNewsList方法，请求数据
+    ctx.body = await 11111111111111;
+  }
 }
 
 
